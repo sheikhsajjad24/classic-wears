@@ -1,0 +1,551 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+     font-family: "Lato", sans-serif; 
+}
+html{
+    scroll-behavior: smooth;
+}
+.head-p{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    /* background-color: black; */
+    background-color: #101923;
+}
+.nav-logo{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 3.5%;
+}
+.nav-logo a{
+    text-decoration: none;
+    color: white;
+}
+.nav-act ul{
+    display: flex;
+    margin-right: 3%;
+    align-items: center;
+}
+.nav-act li{
+    padding: 0vw 3vw;
+    text-transform: capitalize;
+    font-size: 2vw;
+
+}
+.nav-act li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3;
+}
+.nav-act li a:hover{
+  color: #eab308;
+
+}
+.nav-act i{
+    font-size: 4vw;
+    font-weight: 600;
+    display: none;
+
+}
+.hero-sect{
+    height: 480px;
+    
+}
+.imgg{
+    
+    height: 100%;
+    width: 100%;
+     background: url(imag/photo-1483985988355-763728e1935b.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgg h1{
+    color: snow;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    padding-top: 5rem;
+    padding-left: 3.5%;
+    padding-bottom: 2%;
+    text-transform: capitalize;
+}
+.imgg p{
+   
+    padding-left: 3.5%;
+    padding-bottom: 3%;
+    color: #C26A04;
+      
+    font-family: "Grey Qo", cursive;
+     font-size: 2.3rem; 
+     font-weight: 600; 
+         
+   }
+.imgg button{
+ margin-left: 3.5%;
+ padding: 8px  14px;
+ transition: 0.3s;
+ text-transform: capitalize;
+ font-size: 1.3rem;
+ font-weight: 500;
+ border: none;
+ border-radius: 25px;
+ background-color: black;
+ color: #fff;
+}
+.imgg button:hover{
+ 
+background-color: #eab308;
+}
+
+/* About section */
+
+.about-section {
+  background: #f9f9f9;
+  padding: 80px 10%;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1 1 45%;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.about-text p {
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-text .btn {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-text .btn:hover {
+  background: #eab308;
+  color: #111;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+/* shop section */
+.hero-m{
+      /* height: 600px;   */
+     /* background-color: aqua;  */
+    padding:4rem 0rem;
+}
+
+.items{
+     display: flex;
+     align-items: center; 
+    justify-content: space-evenly;
+     flex-wrap: wrap; 
+}
+
+.one{
+    flex-basis: 23%; 
+       margin: 16px 0px;
+       padding: 16px 0px;
+       height: 310px;  
+     /* border: 1px solid black; */
+     box-shadow: 0px 0px 5px 1px rgb(214, 208, 208);
+     text-align: center;
+ }
+
+.hero-m h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    
+}
+
+ 
+.img1{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+    background: url(https://images.unsplash.com/photo-1617299263454-3f1b584c89f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.img2{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+  background: url(https://media.istockphoto.com/id/594029284/photo/single-empty-red-blank-shopping-bag-3d.webp?b=1&s=170667a&w=0&k=20&c=xnjOUrbpUglCRPV17cuQgj21rK9NBUmwW6GM5Xk4TlU=);
+    background-size: 100% 100%;
+    object-fit: cover;
+  
+ 
+    
+}
+.img3{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+   background: url(https://media.istockphoto.com/id/831591110/photo/blue-t-shirts-front-and-back-used-as-design-template.webp?b=1&s=170667a&w=0&k=20&c=8mBaVhQ4TTVbbTsBVaqPjliGxli8hlf_YnDdWKDqxPE=);
+    background-size: cover;
+    object-fit: cover;
+   
+    
+}
+.img4{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+   background: url(https://media.istockphoto.com/id/2150707053/photo/a-pair-of-red-patent-high-heels.webp?b=1&s=170667a&w=0&k=20&c=kSDyREk-EQ7fFTgHsQqXZQTKftogNCNSFzZ0tERBj5c=);
+    background-size: cover;
+    object-fit: cover;
+   
+    
+}
+.img5{
+    
+
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+    background: url( https://media.istockphoto.com/id/692687706/photo/gold-chain-on-a-white-background.webp?b=1&s=170667a&w=0&k=20&c=ixTseWcTg_9tetVn3E4PHx9p83J9rdzfshoKujY_-wU=);
+    background-size: 100% 100%;
+  
+    object-fit: cover;
+
+   
+    
+}
+.img6{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+  background: url(https://media.istockphoto.com/id/1436061606/photo/flying-colorful-womens-sneaker-isolated-on-white-background-fashionable-stylish-sports-shoe.webp?b=1&s=170667a&w=0&k=20&c=GXD8Ci32Wa8c8Zc49domJFzqpCTaHgxe96_qfM7ml8w=);
+    background-size: cover;
+    background-position: center;
+  
+    object-fit: cover;
+
+   
+    
+}
+.img7{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+  background: url(https://media.istockphoto.com/id/2135684073/photo/set-black-wristwatch-on-a-blank-background.webp?b=1&s=170667a&w=0&k=20&c=WX9n0Za8fVXDf4F-yMTa6W1aNhxh5rv6zc7ZJNQAECs=);
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: cover; 
+}
+.img8{
+    /* height: 140px; */
+    /* border-bottom: 1px solid black; */
+    background: url(https://media.istockphoto.com/id/1501781167/photo/black-t-shirt-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=5aXbDUkbrdwcbqJg9eVFB0Vmf9TOlStT9TPTigkWZzM=);
+ background-size: 100% 100%;
+ object-fit: cover;
+ background-position: center;
+   
+    
+}
+
+.one h3{
+    padding: 1.2vw 0vw;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.one p{
+    padding-bottom: 1.2vw;
+}
+.btnn{
+  margin: auto;
+  font-weight: bold;
+   padding: 0.6vw 1.8vw;
+   border: none;
+   background-color: black;
+   border-radius: 50px;
+   text-transform: capitalize;
+}
+.btnn:hover{
+  color: #eab308;
+  
+}
+   
+
+.img1{
+    height: 140px;
+    /* border: 1px solid greenyellow; */
+    /* border-bottom: 1px solid black; */
+    background: url(https://images.unsplash.com/photo-1617299263454-3f1b584c89f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D);
+   background-position: center;
+    background-size: cover;
+    /* object-fit: cover;  */
+    
+}
+.img2{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+  background: url(https://media.istockphoto.com/id/594029284/photo/single-empty-red-blank-shopping-bag-3d.webp?b=1&s=170667a&w=0&k=20&c=xnjOUrbpUglCRPV17cuQgj21rK9NBUmwW6GM5Xk4TlU=);
+    background-size: 100% 100%;
+    background-position: center;
+    /* object-fit: cover;   */
+}
+.img3{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+   background: url(https://media.istockphoto.com/id/831591110/photo/blue-t-shirts-front-and-back-used-as-design-template.webp?b=1&s=170667a&w=0&k=20&c=8mBaVhQ4TTVbbTsBVaqPjliGxli8hlf_YnDdWKDqxPE=);
+    background-size: cover;
+    background-position: center;
+  /* object-fit: cover; */  
+}
+.img4{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+   background: url(https://media.istockphoto.com/id/2150707053/photo/a-pair-of-red-patent-high-heels.webp?b=1&s=170667a&w=0&k=20&c=kSDyREk-EQ7fFTgHsQqXZQTKftogNCNSFzZ0tERBj5c=);
+    background-size: cover;
+    background-position: center;
+   /* object-fit: cover; */  
+}
+.img5{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+    background: url( https://media.istockphoto.com/id/692687706/photo/gold-chain-on-a-white-background.webp?b=1&s=170667a&w=0&k=20&c=ixTseWcTg_9tetVn3E4PHx9p83J9rdzfshoKujY_-wU=);
+    background-size: 100% 100%;
+    background-position: center;
+    /* object-fit: cover;  */
+}
+.img6{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+  background: url(https://media.istockphoto.com/id/1436061606/photo/flying-colorful-womens-sneaker-isolated-on-white-background-fashionable-stylish-sports-shoe.webp?b=1&s=170667a&w=0&k=20&c=GXD8Ci32Wa8c8Zc49domJFzqpCTaHgxe96_qfM7ml8w=);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    /* object-fit: cover;   */
+}
+.img7{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+  background: url(https://media.istockphoto.com/id/2135684073/photo/set-black-wristwatch-on-a-blank-background.webp?b=1&s=170667a&w=0&k=20&c=WX9n0Za8fVXDf4F-yMTa6W1aNhxh5rv6zc7ZJNQAECs=);
+    background-size: 100% 100%;
+     background-position: center; 
+    /* object-fit: cover; */ 
+}
+.img8{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+    background: url(https://media.istockphoto.com/id/1501781167/photo/black-t-shirt-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=5aXbDUkbrdwcbqJg9eVFB0Vmf9TOlStT9TPTigkWZzM=);
+background-size: 100% 100%;
+ /* object-fit: cover; */
+ background-position: center;  
+}
+
+.one h3{
+    padding: 1.2vw 0vw;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.one p{
+    padding-bottom: 1.2vw;
+}
+.btnn{
+  margin: auto;
+  font-weight: bold;
+   padding: 0.6vw 1.8vw;
+   border: none;
+   background-color: black;
+   color: white;
+   border-radius: 50px;
+   text-transform: capitalize;
+}
+.btnn:hover{
+    background-color: #eab308;
+    color: white;
+}
+
+/* footer */
+ .foot-main{
+   background-color: rgb(243, 212, 155); 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 1rem; 
+   /* padding-bottom: 2.5rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;  
+   
+}
+.foot-child{
+    /* background-color: aqua; */
+    width: 350px;
+    padding: 1.1rem 0rem;
+}
+.foot-he{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.foot-o-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.foot-p{
+    opacity: 0.8;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+.foot-o-btn{
+    margin-top: 9px;
+
+}
+.foot-l ul li{
+   list-style: none;
+   padding: 3px 0px;
+    font-size: 1.2rem;
+
+}
+.foot-l ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+textarea{
+    margin-bottom: 2px;
+    border: none;
+}
+.send-b button{
+  
+    width: 61.5%;
+    padding: 4px 0px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 500;
+} 
+.last-i{
+    height: 60px;
+    color: white;
+    text-transform: capitalize;
+    background-color: #101923;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    /* padding: 1.6vw 0vw; */
+    font-size: 1.1rem;
+}
+/* footeer */
+
+@media only screen and (min-width:300px) and (max-width:767px){
+    .head-p{
+       height: 75px;
+       color: white;
+    background-color: #101923;
+    }
+    .nav-logo{
+        font-size: 1.2rem;
+        margin-left: 3.5%;
+        font-weight: 700;
+    }
+    .nav-act{
+        margin-right: 5%;
+    }
+    .nav-act li{
+         display: none; 
+    }
+    .nav-act i{
+      display: block;
+    }
+    .imgg h1{
+        padding-top: 4rem;
+      
+    }
+     .imgg p{
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 4%;
+       /* color:  #F8C471; */
+    color: #C26A04;
+
+    }
+    .imgg button{
+       padding: 7px 7px;
+        font-weight: 600;
+ font-size: 1rem;
+ 
+ color: white;
+       }
+.one{ 
+       flex-basis: 46%; 
+      /* width: 240px; */
+       height: 270px;  
+ }
+ /* hermo main */
+   .hero-m{
+      /* height: 600px;   */
+     /* background-color: aqua;  */
+    padding:2rem 0rem;
+} 
+.hero-m h2{
+
+}
+
+ .one h3{
+    padding: 6px 0px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.one p{
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+.btnn{
+  margin: auto;
+  padding-top: 1px;
+  font-weight: bold;
+   padding: 5px 10px;
+   border: none;
+ 
+   color: white;
+   border-radius: 50px;
+   text-transform: capitalize;  
+}
+
+.img3{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+   background: url(https://media.istockphoto.com/id/831591110/photo/blue-t-shirts-front-and-back-used-as-design-template.webp?b=1&s=170667a&w=0&k=20&c=8mBaVhQ4TTVbbTsBVaqPjliGxli8hlf_YnDdWKDqxPE=);
+    background-size: 100% 100%;
+    /* background-position:right; */
+   object-fit: cover; 
+}
+.img4{
+    height: 140px;
+    /* border-bottom: 1px solid black; */
+   background: url(https://media.istockphoto.com/id/2150707053/photo/a-pair-of-red-patent-high-heels.webp?b=1&s=170667a&w=0&k=20&c=kSDyREk-EQ7fFTgHsQqXZQTKftogNCNSFzZ0tERBj5c=);
+    background-size: 100% 100%;
+    background-position: l; 
+  
+}
+
+}
